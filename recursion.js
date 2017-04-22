@@ -1,4 +1,6 @@
-log = console.log;
+"use strict"
+
+let log = console.log;
 function factorial(num) {
     if (num === 1) {
         return 1;
